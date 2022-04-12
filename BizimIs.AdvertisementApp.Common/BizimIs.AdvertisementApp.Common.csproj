@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>BizimIs.AdvertisementApp.Common</AssemblyName>
+    <RootNamespace>BizimIs.AdvertisementApp.Common</RootNamespace>
+  </PropertyGroup>
+
+</Project>

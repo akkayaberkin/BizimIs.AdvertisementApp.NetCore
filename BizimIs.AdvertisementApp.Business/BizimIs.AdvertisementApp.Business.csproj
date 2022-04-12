@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>BizimIs.AdvertisementApp.Business</AssemblyName>
+    <RootNamespace>BizimIs.AdvertisementApp.Business</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="FluentValidation" Version="10.2.3" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.2.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BizimIs.AdvertisementApp.Dtos\BizimIs.AdvertisementApp.Dtos.csproj" />
+    <ProjectReference Include="..\Udemy.AdvertisementApp.DataAccess\BizimIs.AdvertisementApp.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
